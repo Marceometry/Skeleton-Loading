@@ -13,6 +13,18 @@ const GlobalStyles = createGlobalStyle`
     background: var(--body-background);
     color: var(--color);
   }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
 `
 
 export default GlobalStyles
