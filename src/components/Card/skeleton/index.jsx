@@ -2,7 +2,7 @@ import StyledSkeleton from './styles'
 
 export function SkeletonCard() {
   return (
-    <StyledSkeleton>
+    <StyledSkeleton className='skeleton-border'>
       <div className='card-header'>
         <div className='skeleton img' />
         <div className='skeleton title' />
