@@ -10,6 +10,8 @@ const GlobalStyles = createGlobalStyle`
   body {
     height: 100vh;
     font: 400 1rem sans-serif;
+    background: var(--background);
+    color: var(--color);
   }
 `
 

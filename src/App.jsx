@@ -1,3 +1,10 @@
+import { WithTheme } from "./styles/WithTheme"
+import { Sidebar } from "./components/Sidebar"
+
 export default function App() {
-  return <h1>Skeleton Loading</h1>
+  return (
+    <WithTheme theme={'dark'}>
+      <Sidebar />
+    </WithTheme>
+  )
 }
