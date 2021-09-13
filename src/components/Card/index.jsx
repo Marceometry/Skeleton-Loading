@@ -1,20 +1,16 @@
 import StyledCard from './styles'
-import Img from '../../assets/favicon.ico'
 
-export function Card() {
+export function Card({ image, title, description }) {
   return (
     <StyledCard>
       <div className='card-header'>
-        <div className='img'>
-          <img src={Img} alt="" />
+        <div className='img skeleton'>
+          <img src={image} alt='Imagem' />
         </div>
-        <h3>Lorem ipsum</h3>
+        <h3>{title}</h3>
       </div>
       
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Repellat placeat veniam consequuntur atque!
-      </p>
+      <p>{description}</p>
     </StyledCard>
   )
 }
