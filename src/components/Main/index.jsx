@@ -1,5 +1,5 @@
 import { Button } from '../Button'
-import { Card } from '../Card'
+import { SkeletonCard } from '../Card/skeleton'
 import StyledMain from './styles'
 
 export function Main() {
@@ -12,11 +12,11 @@ export function Main() {
       </div>
       
       <div className='grid'>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <SkeletonCard />
+        <SkeletonCard />
+        <SkeletonCard />
+        <SkeletonCard />
+        <SkeletonCard />
       </div>
     </StyledMain>
   )
