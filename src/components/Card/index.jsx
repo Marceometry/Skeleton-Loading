@@ -4,8 +4,10 @@ import Img from '../../assets/favicon.ico'
 export function Card() {
   return (
     <StyledCard>
-      <div>
-        <img src={Img} alt="" />
+      <div className='card-header'>
+        <div className='img'>
+          <img src={Img} alt="" />
+        </div>
         <h3>Lorem ipsum</h3>
       </div>
       

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const StyledHeader = styled.header`
   padding: 3rem;
-  background: #262626;
+  background: var(--background);
   border-bottom: 1px solid var(--border);
 `
 

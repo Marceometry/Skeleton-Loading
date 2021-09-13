@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const StyledMain = styled.main`
   padding: 4rem 20vw;
   
-  .header {
+  .main-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3rem;

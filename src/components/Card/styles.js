@@ -3,20 +3,30 @@ import styled from 'styled-components'
 const StyledCard = styled.div`
   padding: 1.5rem;
   border-radius: 8px;
-  background: #202020;
+  background: var(--background);
+  border: 1px solid var(--border);
 
-  div {
+  .card-header {
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
 
-    img {
+    .img {
       width: 2.5rem;
       height: 2.5rem;
-      border-radius: 8px;
-      background: #151515;
+      border-radius: 999px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
+  }
+
+  p {
+    text-align: justify;
   }
 `
 
