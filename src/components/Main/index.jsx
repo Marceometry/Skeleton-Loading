@@ -1,3 +1,4 @@
+import { Button } from '../Button'
 import { SkeletonCard } from '../Card/skeleton'
 import StyledMain from './styles'
 
@@ -6,7 +7,7 @@ export function Main() {
     <StyledMain>
       <div className='main-header'>
         <h1>Lorem</h1>
-        <button>Refresh</button>
+        <Button>Refresh</Button>
       </div>
       
       <div className='grid'>
