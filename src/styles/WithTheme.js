@@ -6,10 +6,12 @@ const themes = {
   light: {
     color: '#333333',
     background: '#FAFAFA',
+    border: '#CCCCCC',
   },
   dark: {
     color: '#FAFAFA',
     background: '#333333',
+    border: '#CCCCCC',
   }
 }
 
@@ -17,6 +19,7 @@ const ThemedColors = createGlobalStyle`
   :root {
     --color: ${({ theme }) => theme.color};
     --background: ${({ theme }) => theme.background};
+    --border: ${({ theme }) => theme.border};
   }
 `
 

@@ -1,10 +1,12 @@
 import { WithTheme } from './styles/WithTheme'
-import { Sidebar } from './components/Sidebar'
+import { Header } from './components/Header'
+import { Main } from './components/Main'
 
 export default function App() {
   return (
     <WithTheme theme={'dark'}>
-      <Sidebar />
+      <Header />
+      <Main />
     </WithTheme>
   )
 }
