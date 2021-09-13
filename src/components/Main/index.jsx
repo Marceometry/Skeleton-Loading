@@ -7,7 +7,8 @@ export function Main() {
     <StyledMain>
       <div className='main-header'>
         <h1>Lorem</h1>
-        <Button>Refresh</Button>
+
+        {/* <Button>Refresh</Button> */}
       </div>
       
       <div className='grid'>
